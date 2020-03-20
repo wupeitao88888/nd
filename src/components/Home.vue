@@ -8,15 +8,15 @@
       </el-carousel>
     </div>
     <div class="titleclass">
-      <span class="welcome">欢迎来到南岛模版</span>
+      <span class="welcome">欢迎来到南岛模板</span>
     </div>
     <div class="welcome_icon">
       <img style="width:255px;height:20px;" src="http://img.hbnandao.com/static/img/welcometonandao.png" />
 
       <div class="welcome_info">
-        <span>河北南岛建筑模版有限公司是集研发、生产、销售、施工、服务于一体的高新技术企业,</span>
+        <span>河北南岛建筑模板有限公司是集研发、生产、销售、施工、服务于一体的高新技术企业,</span>
         <br />
-        <span>也是国内唯一一家历史最悠久技术最专业的塑料模版生产制造企业。</span>
+        <span>也是国内唯一一家历史最悠久技术最专业的塑料模板生产制造企业。</span>
       </div>
     </div>
     <div class="menu">
@@ -29,18 +29,18 @@
       <img class="menubg" src="http://img.hbnandao.com/static/img/welcomebg.png" />
     </div>
     <div class="product">
-      <span class="productname">欢迎来到南岛模版</span>
+      <span class="productname">欢迎来到南岛模板</span>
       <br />
       <img style="margin-top:15px;" src="http://img.hbnandao.com/static/img/产品介绍.png" />
 
       <div class="product_info">
-        <span>“南岛”合金塑料模版是我公司研发生产的用于建筑行业的新型建筑模版。它是以聚录乙烯为主要原料，</span>
+        <span>“南岛”合金塑料模板是我公司研发生产的用于建筑行业的新型建筑模板。它是以聚氯乙烯为主要原料，</span>
         <br />
         <span>应用高分子合金技术及现代计算机辅助工程技术，以自研的先进生产设备及工艺生产出来的新型环保建筑材料。</span>
       </div>
 
       <div class="product_m">
-        <!-- 大模版体系  铝合金模版体系  锰合金模版体系  塑料建筑模版 -->
+        <!-- 大模板体系  铝合金模板体系  锰合金模板体系  塑料建筑模板 -->
         <!-- <img src="" -->
 
         <div class="product_imgview">
@@ -98,7 +98,7 @@
               <img src="http://img.hbnandao.com/static/img/新闻-1.png" />
             </div>
             <div class="tview">
-              <p class="title">2019年塑料模版发展趋势</p>
+              <p class="title">2019年塑料模板发展趋势</p>
               <p class="info">20190401北京市住房和城乡建设委员会、北京市规划和自然 资源委员会、北京市城市管理委员会联合下发...</p>
 
               <p class="infobtn" @click="goInfo(0)">详情</p>
@@ -109,7 +109,7 @@
             <img src="http://img.hbnandao.com/static/img/新闻-3.png" />
           </div>
           <div class="tview">
-            <p class="title">2015年塑料模版在建筑业发展趋势分析</p>
+            <p class="title">2015年塑料模板在建筑业发展趋势分析</p>
             <p class="info">20151106年国家林业局宣布，我国将在2017年全面停止天然林的商业性采伐...</p>
 
             <p class="infobtn" @click="goInfo(1)">详情</p>
@@ -121,7 +121,7 @@
               <img src="http://img.hbnandao.com/static/img/新闻-2.png" />
             </div>
             <div class="tview">
-              <p class="title">2008年塑料模版发展趋势分析</p>
+              <p class="title">2008年塑料模板发展趋势分析</p>
               <p class="info">长期以来全世界大部分工程建筑要依赖木材，我国因工程建筑所用...</p>
 
               <p class="infobtn" @click="goInfo(2)">详情</p>
@@ -145,26 +145,26 @@
       <div class="anli">
         <div class="anli-left">
           <p class="anlititle">以质量求生存，以创新求发展</p>
-          <p class="anliinfo">自主研发塑料模版十年载，不断推陈出新，研发更好的绿色、节能、环保、 优质高效的新型产品，为我国建筑模版事业做出更大贡献。</p>
+          <p class="anliinfo">自主研发塑料模板十年载，不断推陈出新，研发更好的绿色、节能、环保、 优质高效的新型产品，为我国建筑模板事业做出更大贡献。</p>
 
           <div class="countview">
             <div style="float:left;" @click="hezuo()">
               <div style="float:left;">
-                <div class="count">8</div>
+                <div class="count">10</div>
                 <div class="countinfo">合作伙伴</div>
               </div>
               <el-divider style="float:left;" direction="vertical"></el-divider>
             </div>
             <div style="float:left;">
               <div style="float:left;" @click="zhuanli()">
-                <div class="count">3</div>
+                <div class="count">4</div>
                 <div class="countinfo">设计专利</div>
               </div>
               <el-divider style="float:left;" direction="vertical"></el-divider>
             </div>
             <div style="float:left;">
               <div style="float:left;" @click="zhuanli()">
-                <div class="count">3</div>
+                <div class="count">4</div>
                 <div class="countinfo">检测报告</div>
               </div>
             </div>
@@ -183,7 +183,7 @@ export default {
   data() {
     return {
       urls: [
-        "http://img.hbnandao.com/static/img/banner1.jpg",
+        "http://img.hbnandao.com/static/img/bannernew1.jpg",
         "http://img.hbnandao.com/static/img/banner2.jpg"
       ],
       listdate: [
@@ -191,16 +191,16 @@ export default {
           day: "01",
           timedate: "2019/04",
           img: "http://img.hbnandao.com/static/img/news2.png",
-          title: "2019年塑料模版发展趋势分析",
+          title: "2019年塑料模板发展趋势分析",
           name:"韩肖伟",
           info:
-            "20190401北京市住房和城乡建设委员会、北京市规划和自然资源委员会、北京市城市管理委员会联合下发 《北京市禁止使用建筑材料目录（2018年版）》通知。在文件中，有77种建筑材料被禁止使用..."
+            "20190401北京市住房和城乡建设委员会、北京市规划和自然资源委员会、北京市城市管理委员会联合下发 《北京市禁止使用建筑材料目氯（2018年板）》通知。在文件中，有77种建筑材料被禁止使用..."
         },
         {
           day: "06",
           timedate: "2015/11",
           img: "http://img.hbnandao.com/static/img/news1.png",
-          title: "2015年塑料模版在建筑业发展趋势分析",
+          title: "2015年塑料模板在建筑业发展趋势分析",
           name:"韩肖伟",
           info:
             "20151106年国家林业局宣布，我国将在2017年全面停止天然林的商业性采伐。国家发展改革委主任徐绍史说， 到2020年，“绿色”将在全国成为一个关键性治国理念。以塑代木，以塑代钢的绿色、节能、环保..."
@@ -209,7 +209,7 @@ export default {
           day: "28",
           timedate: "2008/08",
           img: "http://img.hbnandao.com/static/img/news3.png",
-          title: "2008年塑料模版发展趋势分析",
+          title: "2008年塑料模板发展趋势分析",
           name:"韩肖伟",
           info:
             "长期以来全世界大部分工程建筑要依赖木材，我国因工程建筑所用木材据有关数据统计每年要消耗2446万棵大树以 上，对世界而言那就是无可估量的。对环境污染全球变暖和极端气候的产生起了关键作用，给人类造成..."

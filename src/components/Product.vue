@@ -15,7 +15,7 @@
       <img style="width:212px;height:20px;" src="http://img.hbnandao.com/static/img/产品介绍.png" />
 
       <div class="welcome_info">
-        <span>“南岛”合金塑料模版是我公司研发生产的用于建筑行业的新型建筑模版。它是以聚录乙烯为主要原料</span>
+        <span>“南岛”合金塑料模板是我公司研发生产的用于建筑行业的新型建筑模板。它是以聚氯乙烯为主要原料</span>
         <br />
         <span>应用高分子合金技术及现代计算机辅助工程技术，以自研的先进生产设备及工艺生产出来的新型环保建筑材料。</span>
       </div>
@@ -23,7 +23,10 @@
 
     <div style="margin-top:80px;">
       <div class="change">
-        <img :src="type1" />
+        <img v-show="show1" :src="type1" />
+        <img v-show="show2" :src="type2" />
+        <img v-show="show3" :src="type3" />
+        <img v-show="show4" :src="type4" />
       </div>
     </div>
 
@@ -36,7 +39,7 @@
 
     <div style="margin-top:80px;">
       <div class="table">
-        <img class="title" src="http://img.hbnandao.com/static/img/模版性能.png" />
+        <img class="title" src="http://img.hbnandao.com/static/img/%E6%A8%A1%E7%89%88%E6%80%A7%E8%83%BD.png" />
         <div style="margin-top:33px;">
           <div class="tabletitle">
             <ul>
@@ -44,13 +47,13 @@
                 <div class="tabletitleitem">性能</div>
               </li>
               <li>
-                <div class="tabletitleitem">南岛模版体系</div>
+                <div class="tabletitleitem">南岛模板体系</div>
               </li>
               <li>
-                <div class="tabletitleitem">铝合金模版体系</div>
+                <div class="tabletitleitem">铝合金模板体系</div>
               </li>
               <li>
-                <div class="tabletitleitem">传统木模版体系</div>
+                <div class="tabletitleitem">传统木模板体系</div>
               </li>
             </ul>
           </div>
@@ -195,7 +198,14 @@ export default {
       btn2: "http://img.hbnandao.com/static/img/按钮_03.png",
       btn3: "http://img.hbnandao.com/static/img/按钮_05.png",
       btn4: "http://img.hbnandao.com/static/img/按钮_07.png",
-      type1: "http://img.hbnandao.com/static/img/大模版体系.png",
+      type1: "http://img.hbnandao.com/static/img/%E5%A4%A7%E6%A8%A1%E7%89%88%E4%BD%93%E7%B3%BB.png",
+      type2: "http://img.hbnandao.com/static/img/铝合金模板体系.png",
+      type3: "http://img.hbnandao.com/static/img/锰合金模板体系.png",
+      type4: "http://img.hbnandao.com/static/img/塑料建筑模板.png",
+      show1:true,
+      show2:false,
+      show3:false,
+      show4:false,
       banner: 'http://img.hbnandao.com/static/img/二级页banner.png'
     };
   },
@@ -205,28 +215,44 @@ export default {
       this.$data.btn2 = "http://img.hbnandao.com/static/img/按钮_03.png";
       this.$data.btn3 = "http://img.hbnandao.com/static/img/按钮_05.png";
       this.$data.btn4 = "http://img.hbnandao.com/static/img/按钮_07.png";
-      this.$data.type1 = "http://img.hbnandao.com/static/img/大模版体系.png";
+      // this.$data.type1 = "http://img.hbnandao.com/static/img/%E5%A4%A7%E6%A8%A1%E7%89%88%E4%BD%93%E7%B3%BB.png";
+      this.show1=true;
+      this.show2=false;
+      this.show3=false;
+      this.show4=false;
     },
     big2() {
       this.$data.btn1 = "http://img.hbnandao.com/static/img/按钮_01.png";
       this.$data.btn2 = "http://img.hbnandao.com/static/img/按钮_13.png";
       this.$data.btn3 = "http://img.hbnandao.com/static/img/按钮_05.png";
       this.$data.btn4 = "http://img.hbnandao.com/static/img/按钮_07.png";
-      this.$data.type1 = "http://img.hbnandao.com/static/img/铝合金模版体系.png";
+      // this.$data.type2 = "http://img.hbnandao.com/static/img/铝合金模板体系.png";
+      this.show1=false;
+      this.show2=true;
+      this.show3=false;
+      this.show4=false;
     },
     big3() {
       this.$data.btn1 = "http://img.hbnandao.com/static/img/按钮_01.png";
       this.$data.btn2 = "http://img.hbnandao.com/static/img/按钮_03.png";
       this.$data.btn3 = "http://img.hbnandao.com/static/img/按钮_14.png";
       this.$data.btn4 = "http://img.hbnandao.com/static/img/按钮_07.png";
-      this.$data.type1 = "http://img.hbnandao.com/static/img/锰合金模版体系.png";
+      // this.$data.type1 = "http://img.hbnandao.com/static/img/锰合金模板体系.png";
+      this.show1=false;
+      this.show2=false;
+      this.show3=true;
+      this.show4=false;
     },
     big4() {
       this.$data.btn1 = "http://img.hbnandao.com/static/img/按钮_01.png";
       this.$data.btn2 = "http://img.hbnandao.com/static/img/按钮_03.png";
       this.$data.btn3 = "http://img.hbnandao.com/static/img/按钮_05.png";
       this.$data.btn4 = "http://img.hbnandao.com/static/img/按钮_15.png";
-      this.$data.type1 = "http://img.hbnandao.com/static/img/塑料建筑模版.png";
+      // this.$data.type1 = "http://img.hbnandao.com/static/img/塑料建筑模板.png";
+      this.show1=false;
+      this.show2=false;
+      this.show3=false;
+      this.show4=true;
     }
   }
 };

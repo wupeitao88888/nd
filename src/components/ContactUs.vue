@@ -16,7 +16,7 @@
         <div class="zhuanlilist">
           <div class="countus">
             <p class="mdiv"></p>
-            <p class="title">河北南岛建筑模版有限公司</p>
+            <p class="title">河北南岛建筑模板有限公司</p>
             <p class="info" style="margin-top:18px;">地址：河北省文安县兴隆宫镇夏村</p>
             <p class="info">手机：18210000078／13347900833</p>
             <p class="info">Email: jin000008@163.com</p>

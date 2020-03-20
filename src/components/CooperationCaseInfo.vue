@@ -131,7 +131,7 @@ export default {
         .imgae-view {
           width: 440px;
           height: 360px;
-          background: rgb(248, 191, 191,0);
+          background: #ffffff;
           box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.1);
           .el-image {
             width: 400px;

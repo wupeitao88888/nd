@@ -2,7 +2,7 @@
   <div id="app">
     <div class="header">
       <span class="title">
-        <el-avatar shape="square" src="https://empty">
+        <el-avatar shape="square" v-show="false" src="https://empty">
           <img src="https://cube.elemecdn.com/e/fd/0fc7d20532fdaf769a25683617711png.png" />
         </el-avatar>
       </span>
@@ -45,12 +45,12 @@
         <div class="footview1">
           <p class="foottitle">导航入口</p>
           <img src="./assets/img/分割线footer.png" />
-          <p class="footinfofast">首页</p>
-          <p class="footinfo">产品展示</p>
-          <p class="footinfo">走进南岛</p>
-          <p class="footinfo">新闻资讯</p>
-          <p class="footinfo">合作案例</p>
-          <p class="footinfo">联系我们</p>
+          <p class="footinfofast" @click="homeSelect()">首页</p>
+          <p class="footinfo" @click="productSelect()">产品展示</p>
+          <p class="footinfo" @click="goNdSelect()">走进南岛</p>
+          <p class="footinfo" @click="newsSelect()">新闻资讯</p>
+          <p class="footinfo" @click="casesSelect()">合作案例</p>
+          <p class="footinfo" @click="weSelect()">联系我们</p>
         </div>
         <div class="footview2">
           <p class="foottitle">联系我们</p>
@@ -63,7 +63,7 @@
           <p class="footinfo">地址：河北省文安县兴隆宫镇夏村</p>
         </div>
         <div class="footview3">
-          <p class="foottitle">南岛模版</p>
+          <p class="foottitle">南岛模板</p>
           <img src="./assets/img/分割线footer.png" />
           <p class="footinfofast">公司以“专业，可信赖”为基本宗旨，</p>
           <p class="footinfo">秉承“合作共赢”的服务理念，</p>
@@ -72,8 +72,10 @@
           <p class="footinfo">的管理模式，在团结一致、共同奋斗的氛围中创造未来。</p>
         </div>
         <div class="footview4">
-          <img src="./assets/img/二维码底色.png" />
-          <p>南&nbsp;&nbsp;&nbsp;&nbsp;岛&nbsp;&nbsp;&nbsp;&nbsp;公&nbsp;&nbsp;&nbsp;&nbsp;众&nbsp;&nbsp;&nbsp;&nbsp;号</p>
+          <!-- <img src="./assets/img/二维码底色.png" /> -->
+           <img src="http://img.hbnandao.com/static/img/wexin.jpeg" />
+          
+          <p>南&nbsp;&nbsp;&nbsp;&nbsp;岛&nbsp;&nbsp;&nbsp;&nbsp;微&nbsp;&nbsp;&nbsp;&nbsp;信&nbsp;&nbsp;&nbsp;&nbsp;号</p>
         </div>
       </div>
     </div>
